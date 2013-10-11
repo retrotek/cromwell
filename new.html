@@ -6,28 +6,61 @@
 	<link href='css/bootstrap.min.css' rel='stylesheet' media='screen'>
 	<link href='css/bootstrap-responsive.css' rel='stylesheet' media='screen'>
 	<style>
+	body{
+	padding:70px;
+	}
 	.row-fluid div{
 	background:#AEB3B5;
 	opacity:75%;
 	border-radius:5px;
 	}
+	
 	h1{text-align:center}
+	
+	.jumbotron{
+	background:url('img/mobile.jpg');
+	background-position: center;
+	background-size:cover;
+	height:500px;
+	}
+	.jumbotron .container  {
+	border-radius:5px;
+	background:#aeb3b5;
+	opacity:0.9;
+	}
 	
 	</style>
 	</head>
 	<body>
-		<h1>Desert Web Solutions</h1>
-		<div class='container-fluid'>
-		<div class='row-fluid'>
-			<div class='span12'>
-				<div class='row-fluid'>
-					<div class='span3'></div>
-					<div class='span3'></div>
-					<div class='span3'></div>
-					<div class='span3'></div>
+		
+		<div class='container'>
+			<div class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+				<div class='navbar-header'>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Desert Web Solutions</a>
+				</div>
+				<div class='collapse navbar-collapse navbar-ex1-collapse'>
+					<ul class='nav navbar-nav pull-right'>
+						<li class='active'><a href='#'>Home</a></li>
+						<li><a href='#'>About us</a></li>
+						<li><a href='#'>Services</a></li>
+						<li><a href='#'>Portfolio</a></li>
+						<li><a href='#'>Contact Us</a></li>
+					<ul>
 				</div>
 			</div>
-			
+			<div class='jumbotron'>
+				<div class='container'>
+					<h1>Awesome Apps!</h1>
+					<p class='lead'>At Desert Web Solutions, we develop tailor made Apps that will satisfy your business or organization's needs. We guarantee practical and professional software for our customers.</p>
+					
+					<p><a href='#' class='btn btn-primary bin-lg'>Learn More</a></p>
+				</div>
 		</div>
 		</div>
 	</body>
